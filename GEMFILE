@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'sinatra', require: 'sinatra/base'
+
+gem 'bootstrap'
+
+group :development do
+  gem 'shotgun'
+  gem 'tux'
+end
