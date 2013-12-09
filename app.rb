@@ -15,12 +15,7 @@ module Compliments
       :fancy => "You're super fancy."
     }
 
-    images = [
-      "/images/christmas_pusheen.gif",
-      "/images/balloon_pusheen.gif",
-      "/images/pusheenicorn.gif",
-      "/images/gangnam_pusheen.gif"
-    ]
+    images = Dir["./public/images/*"].map {|image| "/images/#{Pathname.new(image).basename}"}
 
     get '/' do
 

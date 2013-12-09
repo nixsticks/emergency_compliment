@@ -1,4 +1,8 @@
-p, h4, h1 {
+body {
+  background-color: #FCF0E4;
+}
+
+p, h3, h1 {
   text-align: center;
   font-family: "Nixie One";
 }
