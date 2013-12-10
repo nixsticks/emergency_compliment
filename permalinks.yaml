@@ -58,3 +58,45 @@ compliment: !ruby/object:Compliment
   image: /images/cheetos_pusheen.gif
 permalink: 02860c49bdf6d9e7ed28fd3b2869c234
 
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: You're a coding champion!
+  image: /images/icecream_pusheen.gif
+permalink: e969b1ab0972c715bb873022c842f649
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: Hello Kitty's got nothing on you.
+  image: /images/balloon_pusheen.gif
+permalink: c52a7d6679cf030f73d6bb539e2447c0
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: Hello Kitty's got nothing on you.
+  image: /images/cheetos_pusheen.gif
+permalink: 96415e98ff1844696c6c37f84e486c88
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: You're awesome!
+  image: /images/balloon_pusheen.gif
+permalink: 8a94682336685edc8e02393aa2a8b134
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: Pusheen loves you.
+  image: /images/fancy_pusheen.gif
+permalink: a98c0d02188508ba32bd3de81f6fe3ff
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: Everyone else in the room is jealous of you.
+  image: /images/cheetos_pusheen.gif
+permalink: 9ea3f3aa5b83eb4e1d94d38363dadf18
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: You have great hair.
+  image: /images/balloon_pusheen.gif
+permalink: 4a5d63bab4099bccf8bf6b54211c6877
+
