@@ -1,4 +1,6 @@
 require_relative 'lib/compliment'
+require_relative 'lib/page'
+require 'yaml'
 require 'bundler'
 Bundler.require
 
@@ -20,11 +22,16 @@ module Compliments
     get '/' do
 
       @compliment = Compliment.new(compliments.values.sample, images.sample)
+      @page = Page.new(@compliment)
+      
+      File.open("permalinks.yaml", "a") do |f|
+        f.write(@page.to_yaml)
+        f.puts
+      end
 
       erb :index do
         erb :compliment
       end
-      # redirect to("/#{compliments.keys.sample.to_s}")
     end
 
     get '/compliments' do
@@ -32,11 +39,15 @@ module Compliments
       erb :compliment
     end
 
-    get '/:compliment' do
-      compliment = compliments[params[:compliment].to_sym]
+    get '/:permalink' do
+      @pages = []
+      $/ = "\n\n"
+      File.open("permalinks.yaml", "r").each {|page| @pages << YAML::load(page)}
 
-      if compliment
-        @compliment = Compliment.new(compliment, images.sample)
+      permalink = @pages.detect {|page| page.permalink == params[:permalink]}
+
+      if permalink
+        @compliment = permalink.compliment
         erb :compliment
       else
         erb :not_found

@@ -1,0 +1,60 @@
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: Everyone else in the room is jealous of you.
+  image: /images/gangnam_pusheen.gif
+permalink: 0cfebf7551b15113860f7d1424aca043
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: You have great hair.
+  image: /images/fancy_pusheen.gif
+permalink: 196b25b5943a355c66884dd278d4261f
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: You're a coding champion!
+  image: /images/fancy_pusheen.gif
+permalink: fdb5bd55e25f9781a705e729d3ce1d3d
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: You're awesome!
+  image: /images/writing_pusheen.gif
+permalink: 895bfd6454ef615f9c795e51776197da
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: You're a coding champion!
+  image: /images/fancy_pusheen.gif
+permalink: e4d6e4aadf2cc4780a06d8839ee08dc4
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: You're awesome!
+  image: /images/writing_pusheen.gif
+permalink: 369bebed06b0590295de908f78264e44
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: You're awesome!
+  image: /images/fancy_pusheen.gif
+permalink: 79bbf595e1a0c2a4b8c5d38ab58b507e
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: You're a coding champion!
+  image: /images/gangnam_pusheen.gif
+permalink: c76866922dc75fa430eeb0f9d8e50037
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: Hello Kitty's got nothing on you.
+  image: /images/pusheenicorn.gif
+permalink: 3bdd9d1823f505a675537570175ea09f
+
+--- !ruby/object:Page
+compliment: !ruby/object:Compliment
+  message: You're super fancy.
+  image: /images/cheetos_pusheen.gif
+permalink: 02860c49bdf6d9e7ed28fd3b2869c234
+
