@@ -11,7 +11,6 @@ module Compliments
   set :images, Dir["./public/images/*"].map {|image| "/images/#{Pathname.new(image).basename}"}
 
     get '/' do
-
       @compliment = Compliment.new(settings.compliments.sample, settings.images.sample)
       @page = Page.new(@compliment)
       
@@ -44,5 +43,10 @@ module Compliments
         erb :not_found
       end
     end
+
+    get '/:compliment/:image' do
+      
+    end
+
   end
 end
