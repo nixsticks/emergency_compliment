@@ -1,6 +1,5 @@
 <div class="center">
-  <h1>EMERGENCY COMPLIMENT</h1> 
-  <%= yield %>
+  <%= simple_partial :_compliment %>
   <p><a href="/" class="btn btn-large btn-custom">Still feeling down? Click me!</a></p>
-  <p><a href="/<%= @page.permalink %>">Permalink</a></p>
+  <p><a href="/<%= @message %>/<%= @compliment.image %>">Share</a></p>
 </div>
